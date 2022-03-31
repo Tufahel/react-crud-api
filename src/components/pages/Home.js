@@ -40,7 +40,6 @@ const Home = () => {
     e.preventDefault();
     try {
       await axios.post('http://localhost:3333/students', student);
-      setStudent(student.data);
       setStatus(true);
     } catch (erro) {
       console.log('Wrong');

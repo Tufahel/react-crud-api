@@ -34,6 +34,11 @@ const List = () => {
     }
     getAllStudent();
   }, []);
+  const handleDelete = async (id) => {
+    await axios.delete(`http://localhost:3333/students/${id}`);
+    const newStudent = students.filter((item) => item.id !== id);
+    setStudents(newStudent);
+  };
   return (
     <div>
       <Box textAlign="center" p={2} className={classes.stulistColor} mb={2}>
@@ -74,13 +79,13 @@ const List = () => {
                         </Tooltip>
                         <Tooltip title="Edit">
                           <IconButton>
-                            <Link to="/edit/1">
+                            <Link to={`/edit/${student.id}`}>
                               <EditIcon color="primary" />
                             </Link>
                           </IconButton>
                         </Tooltip>
                         <Tooltip title="Delete">
-                          <IconButton>
+                          <IconButton onClick={() => handleDelete(student.id)}>
                             <DeleteIcon color="secondary" />
                           </IconButton>
                         </Tooltip>

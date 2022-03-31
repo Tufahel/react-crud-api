@@ -4,7 +4,7 @@ import {
   TableCell, TableContainer, TableHead, TableRow, Typography, Box, Button,
 } from '@material-ui/core';
 import { orange } from '@material-ui/core/colors';
-import { useParams } from 'react-router-dom';
+import { NavLink, useParams } from 'react-router-dom';
 import axios from 'axios';
 
 const useStyles = makeStyles({
@@ -65,7 +65,7 @@ const View = () => {
       </TableContainer>
       <Box textAlign="center" m={3}>
         <Button variant="contained" color="primary">
-          Back to Home
+          <NavLink to="/" className="link" color="primary" style={{ color: 'white' }}>Back to Home</NavLink>
         </Button>
       </Box>
     </div>

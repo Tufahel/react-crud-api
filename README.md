@@ -1,28 +1,27 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Title-Info
-> This is a template for react based projects with linters, package.json and readme setup.
+> This is a react based crud project using material ui for design and axios for api.
 
 # GIF/Screenshot
-![]
+![](pic1.png)
+![](pic2.png)
+![](pic3.png)
 
 ## Built With
 - React
+- Axios
+- Material UI
 
 ## Live Demo
-For the link to the live demo, [Click here]()
+For the link to the live demo, [Click here](https://lively-scone-befd78.netlify.app/)
 
 ## Getting Started
 To get a local copy up and running you just need to follow the following steps;
 - Clone this repository with
 git clone `https://github.com/Tufahel/react-template-microverse.git` using your terminal or command line.
 - run code `.` to open it in vscode.
-- run `npm update --save` in terminal.
+- run `npm install` in terminal.
 - run `npm run build`.
 - run `npm start`.
-
-## Note
-- Remember to check the version of react `file: package.json, line: 9`. Though it doesn't change so often so it's just a suggestion.
 
 ## Authors
 
@@ -44,9 +43,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Youtube Channel Geeky Shows
 
 ## 📝 License
 
