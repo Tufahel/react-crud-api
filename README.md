@@ -12,7 +12,8 @@
 - Material UI
 
 ## Live Demo
-For the link to the live demo, [Click here](https://lively-scone-befd78.netlify.app/)
+- It generally runs on the local machine as I have fetched data from local json file.
+- For the link to the live demo to see design, [Click here](https://lively-scone-befd78.netlify.app/).
 
 ## Getting Started
 To get a local copy up and running you just need to follow the following steps;
